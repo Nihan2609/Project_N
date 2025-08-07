@@ -2,6 +2,11 @@ import express from "express";
 import mysql from "mysql2";
 import cors from "cors";
 
+import { HashRouter as Router } from 'react-router-dom';
+
+
+
+
 // ============ App Initialization ============
 const app = express();
 app.use(express.json());
